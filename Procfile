@@ -1,1 +1,1 @@
-web: gunicorn gene_app.wsgi --log-file -
+web: gunicorn Invitae.wsgi:application --log-file -
