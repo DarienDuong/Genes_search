@@ -16,9 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from gene_app import views
+from django.urls import path, re_path
+from django.views.generic import TemplateView
 
 urlpatterns = [
-    path('gene', views.home, name = 'home'),
-    path('gene/<str:name>', views.gene_search, name = 'gene_search'),
+    path('api', views.home, name = 'home'),
+    path('api/<str:name>', views.gene_search, name = 'gene_search'),
     path('admin/', admin.site.urls, name='index'),
+    re_path('.*', TemplateView.as_view(template_name='index.html')),
 ]
