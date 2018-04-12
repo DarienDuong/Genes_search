@@ -18,6 +18,7 @@ from django.urls import path
 from gene_app import views
 
 urlpatterns = [
-    path('', views.home, name = 'home'),
+    path('gene', views.home, name = 'home'),
+    path('gene/<str:name>', views.gene_search, name = 'gene_search'),
     path('admin/', admin.site.urls, name='index'),
 ]

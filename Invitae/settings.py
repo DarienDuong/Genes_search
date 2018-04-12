@@ -25,7 +25,7 @@ SECRET_KEY = 'qoy7*vr@+7v3k%(boiwvctwxq_4&4@248^p)o^w*%%6_19vtav'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['aqueous-meadow-21172.herokuapp.com']
+ALLOWED_HOSTS = ['aqueous-meadow-21172.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -74,10 +74,10 @@ WSGI_APPLICATION = 'Invitae.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
-DATABASES = {
+DATABASES = {   # this is used locally on laptop
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'genedb',
     }
 }
 
@@ -120,6 +120,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+# This OVERWRITES the database settings above to get the
+# database info from heroku when on heroku
 
 import dj_database_url
 db_from_env = dj_database_url.config()
