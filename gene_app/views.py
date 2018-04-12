@@ -10,6 +10,6 @@ def home(request):
 
 def gene_search(request, name):
 	# consider using __icontains
-	search_query = Gene.objects.values('gene').filter(gene__iexact=name).order_by('gene')
+	search_query = Gene.objects.values("gene", "nucleotide_change", "protein_change", "alias", "region", "reported_classification", "last_evaluated", "last_updated", "source", "url").filter(gene__iexact=name).order_by('gene')
 	variants = GeneSearchSerializer(search_query, many=True).data
 	return JsonResponse({"variants": variants})

@@ -10,4 +10,4 @@ class GeneSerializer(serializers.ModelSerializer):
 class GeneSearchSerializer(serializers.ModelSerializer):
 	class Meta:
 		model = Gene
-		fields = ["gene"]
+		fields = ["gene", "nucleotide_change", "protein_change", "alias", "region", "reported_classification", "last_evaluated", "last_updated", "source", "url"]
