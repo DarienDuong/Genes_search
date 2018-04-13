@@ -1,3 +1,5 @@
 .autocomplete-container {
     position: absolute;
+    background-color: white;
+    width: 80%;
 }
