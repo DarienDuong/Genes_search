@@ -1,9 +1,11 @@
 import React from 'react'
 import { render } from 'react-dom'
+import './AutoCompleteSection.css'
+import AutoGene from './AutoGene'
 
 function renderResults(autocomplete) {
     if (autocomplete !== '') {
-        return autocomplete.map((gene) => <p>{gene.gene}</p>)
+        return autocomplete.map((gene) => <AutoGene gene={gene.gene} />)
     } else {
         return ''
     }
@@ -12,7 +14,7 @@ function renderResults(autocomplete) {
 const AutoCompleteSection = ({ autocomplete }) => {
 
     return (
-        <div>{renderResults(autocomplete)}</div>
+        <div className='autocomplete-container'>{renderResults(autocomplete)}</div>
     )
 }
 
