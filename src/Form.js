@@ -10,8 +10,8 @@ class Form extends Component {
     }
 
     handleChange = (e) => {
-        this.setState({
-            search: e.target.value
+        this.setState({ search: e.target.value }, () => {
+            console.log(this.props.autoComplete.get(this.state.search))
         })
     }
 
