@@ -11,7 +11,7 @@ class Form extends Component {
 
     handleChange = (e) => {
         this.setState({ search: e.target.value }, () => {
-            console.log(this.props.autoComplete.get(this.state.search))
+            this.props.autoCompleteResults(this.props.autoCompleteList.get(this.state.search))
         })
     }
 
@@ -20,7 +20,6 @@ class Form extends Component {
     }
 
     render() {
-        console.log(this.state.search)
         return (
             <form onSubmit={this.handleSubmit}>
                 <input onChange={this.handleChange} placeholder='Search for gene' name='search' value={this.state.search} />

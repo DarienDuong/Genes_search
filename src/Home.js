@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
 import Form from './Form'
+import AutoCompleteSection from './AutoCompleteSection'
 import * as TrieSearch from 'trie-search'
 import axios from 'axios'
 
@@ -10,7 +11,8 @@ class Home extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            genes: ''
+            genes: '',
+            autocomplete: ''
         }
     }
 
@@ -22,11 +24,16 @@ class Home extends Component {
             }).catch(err => console.log(err))
     }
 
+    autoCompleteResults = (result) => {
+        this.setState({ autocomplete: result })
+    }
+
     render() {
         return (
             <div>
                 <p>In the home</p>
-                <Form autoComplete={this.state.genes} />
+                <Form autoCompleteList={this.state.genes} autoCompleteResults={this.autoCompleteResults.bind(this)} />
+                <AutoCompleteSection autocomplete={this.state.autocomplete} />
             </div>
         )
     }
