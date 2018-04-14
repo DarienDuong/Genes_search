@@ -6,8 +6,6 @@ import AutoCompleteSection from './AutoCompleteSection'
 import * as TrieSearch from 'trie-search'
 import axios from 'axios'
 
-const ts = new TrieSearch('gene')
-
 class Home extends Component {
     constructor(props) {
         super(props)
@@ -18,7 +16,9 @@ class Home extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://127.0.0.1:8000/api')
+        const ts = new TrieSearch('gene')
+
+        axios.get('/api')
             .then((response) => {
                 ts.addAll(response.data.genes)
                 this.setState({ genes: ts })
@@ -30,12 +30,13 @@ class Home extends Component {
     }
 
     render() {
+        if (this.state.gene === '') return <h1>Loading</h1>
         return (
             <div>
                 <div className='home-container'>
                     <div className='text-container'>
-                        <h1>Search for your favorite gene</h1>
-                        <p>The number one variant lookup tool in the world</p>
+                        <h1 className='banner-header'>Search for your favorite gene</h1>
+                        <p className='banner-text'>The number one variant lookup tool in the world!</p>
                         <div className='search-container'>
                             <Form autoCompleteList={this.state.genes} autoCompleteResults={this.autoCompleteResults.bind(this)} />
                             <AutoCompleteSection autocomplete={this.state.autocomplete} />

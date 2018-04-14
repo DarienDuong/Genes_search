@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
+import { withRouter } from "react-router-dom";
 import './Form.css'
 
 class Form extends Component {
@@ -18,13 +19,14 @@ class Form extends Component {
 
     handleSubmit = (e) => {
         e.preventDefault()
+        this.props.history.push(`/gene/${this.state.search}`)
     }
 
     render() {
         return (
             <form onSubmit={this.handleSubmit}>
                 <div className='search-bar'>
-                    <input className='input-field' onChange={this.handleChange} placeholder='Search for gene' name='search' value={this.state.search} />
+                    <input autocomplete='off' className='input-field' onChange={this.handleChange} placeholder='Search for gene...' name='search' value={this.state.search} required />
                     <input type="submit" value="Search" />
                 </div>
             </form>
@@ -32,4 +34,4 @@ class Form extends Component {
     }
 }
 
-export default Form
+export default withRouter(Form)

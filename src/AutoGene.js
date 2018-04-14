@@ -1,21 +1,17 @@
 import React from 'react'
 import styled from 'styled-components'
-
-const StyledDiv = styled.div`
-    border-style: solid;
-    border-width: 2px 2px 2px 2px;
-    margin-top: 0px;
-`
+import './AutoGene.css'
 
 const StyledP = styled.p`
     text-align: center;
+    font-size: 12px;
 `
 
 const AutoGene = ({ gene }) => {
     return (
-        <StyledDiv>
+        <div className='auto-gene-box'>
             <StyledP>{gene}</StyledP>
-        </StyledDiv>
+        </div>
     )
 }
 

@@ -10,6 +10,10 @@
     background: #f1f1f1;
 }
 
+.input-field:focus {
+    outline: none
+}
+
 form input[type=submit] {
     width: 20%;
     padding: 10px;

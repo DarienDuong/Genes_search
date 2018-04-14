@@ -1,0 +1,22 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    display: block;
+}
+
+th {
+    background-color: seagreen;
+}
+
+/* tbody tr:nth-child(odd) {
+    background: #eee;
+} */
+
+td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+}
+
+tbody tr:hover {
+    background:#eee;
+}

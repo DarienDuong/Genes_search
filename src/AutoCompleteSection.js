@@ -5,7 +5,7 @@ import AutoGene from './AutoGene'
 
 function renderResults(autocomplete) {
     if (autocomplete !== '') {
-        return autocomplete.map((gene) => <AutoGene gene={gene.gene} />)
+        return autocomplete.slice(0, 5).map((gene) => <AutoGene gene={gene.gene} />)
     } else {
         return ''
     }

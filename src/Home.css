@@ -1,3 +1,8 @@
+.banner-header {
+    color: white;
+    font-size: 60px;
+}
+
 .home-container{
     display: flex;
     flex-direction: column;
@@ -5,10 +10,26 @@
     align-items: center;
     width: 100%;
     height: 80vh;
-    background-color: blue
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.3))), url('https://media.endocrinologyadvisor.com/images/2016/08/16/dnastrandconcept0816_1035782.jpg?format=jpg&zoom=1&quality=70&anchor=middlecenter&width=1000&mode=pad');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('https://media.endocrinologyadvisor.com/images/2016/08/16/dnastrandconcept0816_1035782.jpg?format=jpg&zoom=1&quality=70&anchor=middlecenter&width=1000&mode=pad');
+	background-attachment:fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-container {
+    max-width: 1040px;
+}
+
+.banner-text {
+    color: white;
+    font-size: 17px;
+    margin-bottom: 30px;
 }
 
 .search-container {
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
-    width: 100%;
+    width: 500px;
 }
