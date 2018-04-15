@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import './Table.css'
 
 const renderVariants = (variants) => {
+    if (variants.length === 0) return <h1>Enter a valid gene name</h1>
     return variants.map((variant) => {
         return (
             <tr>

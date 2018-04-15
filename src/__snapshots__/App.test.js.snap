@@ -1,0 +1,2287 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AutoCompleteGene component to match its snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AutoCompleteSection
+    autocomplete=""
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": "",
+      "className": "autocomplete-container",
+    },
+    "ref": null,
+    "rendered": "",
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": "",
+        "className": "autocomplete-container",
+      },
+      "ref": null,
+      "rendered": "",
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`AutoCompleteGene component to match its snapshot with results 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AutoCompleteSection
+    autocomplete={
+        Array [
+            Object {
+              "gene": "brca1",
+            },
+            Object {
+              "gene": "brca2",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <AutoGene
+          gene="brca1"
+/>,
+        <AutoGene
+          gene="brca2"
+/>,
+      ],
+      "className": "autocomplete-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "gene": "brca1",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "gene": "brca2",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <AutoGene
+            gene="brca1"
+/>,
+          <AutoGene
+            gene="brca2"
+/>,
+        ],
+        "className": "autocomplete-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "gene": "brca1",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "gene": "brca2",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`AutoGene component to match its snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AutoGene />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <styled.p />,
+      "className": "auto-gene-box",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": undefined,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <styled.p />,
+        "className": "auto-gene-box",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Form component matches its snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <withRouter(Form) />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "render": [Function],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "render": [Function],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Gene component matches its snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Gene
+    match={
+        Object {
+            "params": Object {
+              "name": "BRCA1",
+            },
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Table
+        variants={Array []}
+/>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "variants": Array [],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Table
+          variants={Array []}
+/>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "variants": Array [],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Table component matches its snapshot with variants prop 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Table
+    variants={
+        Array [
+            Object {
+              "alias": null,
+              "gene": "BRCA1",
+              "last_evaluated": "2014-03-03",
+              "last_updated": "2017-09-14",
+              "nucleotide_change": "NM_007294.3:c.389A>T",
+              "protein_change": "p.Tyr130Phe",
+              "region": "NM_007294.3:Ex6",
+              "reported_classification": "Uncertain significance",
+              "source": "ClinVar",
+              "url": "https://www.ncbi.nlm.nih.gov/clinvar/RCV000152869",
+            },
+            Object {
+              "alias": null,
+              "gene": "BRCA1",
+              "last_evaluated": "2014-03-03",
+              "last_updated": "2017-09-14",
+              "nucleotide_change": "NM_007294.3:c.389A>T",
+              "protein_change": "p.Tyr130Phe",
+              "region": "NM_007294.3:Ex6",
+              "reported_classification": "Uncertain significance",
+              "source": "ClinVar",
+              "url": "https://www.ncbi.nlm.nih.gov/clinvar/RCV000152869",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <thead>
+          <tr>
+                    <th>
+                              GENE
+                    </th>
+                    <th>
+                              NUCLEOTIDE CHANGE
+                    </th>
+                    <th>
+                              PROTEIN CHANGE
+                    </th>
+                    <th>
+                              ALIAS
+                    </th>
+                    <th>
+                              REGION
+                    </th>
+                    <th>
+                              REPORTED CLASSIFICATION
+                    </th>
+                    <th>
+                              LAST EVALUATED
+                    </th>
+                    <th>
+                              LAST UPDATED
+                    </th>
+                    <th>
+                              MORE INFO
+                    </th>
+          </tr>
+</thead>,
+        <tbody>
+          <tr>
+                    <td>
+                              BRCA1
+                    </td>
+                    <td>
+                              NM_007294.3:c.389A&gt;T
+                    </td>
+                    <td>
+                              p.Tyr130Phe
+                    </td>
+                    <td />
+                    <td>
+                              NM_007294.3:Ex6
+                    </td>
+                    <td>
+                              Uncertain significance
+                    </td>
+                    <td>
+                              2014-03-03
+                    </td>
+                    <td>
+                              2017-09-14
+                    </td>
+                    <td>
+                              <a
+                                        href="https://www.ncbi.nlm.nih.gov/clinvar/RCV000152869"
+                              >
+                                        ClinVar
+                              </a>
+                    </td>
+          </tr>
+          <tr>
+                    <td>
+                              BRCA1
+                    </td>
+                    <td>
+                              NM_007294.3:c.389A&gt;T
+                    </td>
+                    <td>
+                              p.Tyr130Phe
+                    </td>
+                    <td />
+                    <td>
+                              NM_007294.3:Ex6
+                    </td>
+                    <td>
+                              Uncertain significance
+                    </td>
+                    <td>
+                              2014-03-03
+                    </td>
+                    <td>
+                              2017-09-14
+                    </td>
+                    <td>
+                              <a
+                                        href="https://www.ncbi.nlm.nih.gov/clinvar/RCV000152869"
+                              >
+                                        ClinVar
+                              </a>
+                    </td>
+          </tr>
+</tbody>,
+      ],
+      "id": "table",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <tr>
+            <th>
+                        GENE
+            </th>
+            <th>
+                        NUCLEOTIDE CHANGE
+            </th>
+            <th>
+                        PROTEIN CHANGE
+            </th>
+            <th>
+                        ALIAS
+            </th>
+            <th>
+                        REGION
+            </th>
+            <th>
+                        REPORTED CLASSIFICATION
+            </th>
+            <th>
+                        LAST EVALUATED
+            </th>
+            <th>
+                        LAST UPDATED
+            </th>
+            <th>
+                        MORE INFO
+            </th>
+</tr>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <th>
+                GENE
+</th>,
+              <th>
+                NUCLEOTIDE CHANGE
+</th>,
+              <th>
+                PROTEIN CHANGE
+</th>,
+              <th>
+                ALIAS
+</th>,
+              <th>
+                REGION
+</th>,
+              <th>
+                REPORTED CLASSIFICATION
+</th>,
+              <th>
+                LAST EVALUATED
+</th>,
+              <th>
+                LAST UPDATED
+</th>,
+              <th>
+                MORE INFO
+</th>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "GENE",
+              },
+              "ref": null,
+              "rendered": "GENE",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "NUCLEOTIDE CHANGE",
+              },
+              "ref": null,
+              "rendered": "NUCLEOTIDE CHANGE",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "PROTEIN CHANGE",
+              },
+              "ref": null,
+              "rendered": "PROTEIN CHANGE",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "ALIAS",
+              },
+              "ref": null,
+              "rendered": "ALIAS",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "REGION",
+              },
+              "ref": null,
+              "rendered": "REGION",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "REPORTED CLASSIFICATION",
+              },
+              "ref": null,
+              "rendered": "REPORTED CLASSIFICATION",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "LAST EVALUATED",
+              },
+              "ref": null,
+              "rendered": "LAST EVALUATED",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "LAST UPDATED",
+              },
+              "ref": null,
+              "rendered": "LAST UPDATED",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "MORE INFO",
+              },
+              "ref": null,
+              "rendered": "MORE INFO",
+              "type": "th",
+            },
+          ],
+          "type": "tr",
+        },
+        "type": "thead",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <tr>
+              <td>
+                            BRCA1
+              </td>
+              <td>
+                            NM_007294.3:c.389A&gt;T
+              </td>
+              <td>
+                            p.Tyr130Phe
+              </td>
+              <td />
+              <td>
+                            NM_007294.3:Ex6
+              </td>
+              <td>
+                            Uncertain significance
+              </td>
+              <td>
+                            2014-03-03
+              </td>
+              <td>
+                            2017-09-14
+              </td>
+              <td>
+                            <a
+                                          href="https://www.ncbi.nlm.nih.gov/clinvar/RCV000152869"
+                            >
+                                          ClinVar
+                            </a>
+              </td>
+</tr>,
+            <tr>
+              <td>
+                            BRCA1
+              </td>
+              <td>
+                            NM_007294.3:c.389A&gt;T
+              </td>
+              <td>
+                            p.Tyr130Phe
+              </td>
+              <td />
+              <td>
+                            NM_007294.3:Ex6
+              </td>
+              <td>
+                            Uncertain significance
+              </td>
+              <td>
+                            2014-03-03
+              </td>
+              <td>
+                            2017-09-14
+              </td>
+              <td>
+                            <a
+                                          href="https://www.ncbi.nlm.nih.gov/clinvar/RCV000152869"
+                            >
+                                          ClinVar
+                            </a>
+              </td>
+</tr>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  BRCA1
+</td>,
+                <td>
+                  NM_007294.3:c.389A&gt;T
+</td>,
+                <td>
+                  p.Tyr130Phe
+</td>,
+                <td />,
+                <td>
+                  NM_007294.3:Ex6
+</td>,
+                <td>
+                  Uncertain significance
+</td>,
+                <td>
+                  2014-03-03
+</td>,
+                <td>
+                  2017-09-14
+</td>,
+                <td>
+                  <a
+                                    href="https://www.ncbi.nlm.nih.gov/clinvar/RCV000152869"
+                  >
+                                    ClinVar
+                  </a>
+</td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "BRCA1",
+                },
+                "ref": null,
+                "rendered": "BRCA1",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "NM_007294.3:c.389A>T",
+                },
+                "ref": null,
+                "rendered": "NM_007294.3:c.389A>T",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "p.Tyr130Phe",
+                },
+                "ref": null,
+                "rendered": "p.Tyr130Phe",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": null,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "NM_007294.3:Ex6",
+                },
+                "ref": null,
+                "rendered": "NM_007294.3:Ex6",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Uncertain significance",
+                },
+                "ref": null,
+                "rendered": "Uncertain significance",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "2014-03-03",
+                },
+                "ref": null,
+                "rendered": "2014-03-03",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "2017-09-14",
+                },
+                "ref": null,
+                "rendered": "2017-09-14",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    href="https://www.ncbi.nlm.nih.gov/clinvar/RCV000152869"
+>
+                    ClinVar
+</a>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "ClinVar",
+                    "href": "https://www.ncbi.nlm.nih.gov/clinvar/RCV000152869",
+                  },
+                  "ref": null,
+                  "rendered": "ClinVar",
+                  "type": "a",
+                },
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  BRCA1
+</td>,
+                <td>
+                  NM_007294.3:c.389A&gt;T
+</td>,
+                <td>
+                  p.Tyr130Phe
+</td>,
+                <td />,
+                <td>
+                  NM_007294.3:Ex6
+</td>,
+                <td>
+                  Uncertain significance
+</td>,
+                <td>
+                  2014-03-03
+</td>,
+                <td>
+                  2017-09-14
+</td>,
+                <td>
+                  <a
+                                    href="https://www.ncbi.nlm.nih.gov/clinvar/RCV000152869"
+                  >
+                                    ClinVar
+                  </a>
+</td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "BRCA1",
+                },
+                "ref": null,
+                "rendered": "BRCA1",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "NM_007294.3:c.389A>T",
+                },
+                "ref": null,
+                "rendered": "NM_007294.3:c.389A>T",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "p.Tyr130Phe",
+                },
+                "ref": null,
+                "rendered": "p.Tyr130Phe",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": null,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "NM_007294.3:Ex6",
+                },
+                "ref": null,
+                "rendered": "NM_007294.3:Ex6",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Uncertain significance",
+                },
+                "ref": null,
+                "rendered": "Uncertain significance",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "2014-03-03",
+                },
+                "ref": null,
+                "rendered": "2014-03-03",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "2017-09-14",
+                },
+                "ref": null,
+                "rendered": "2017-09-14",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    href="https://www.ncbi.nlm.nih.gov/clinvar/RCV000152869"
+>
+                    ClinVar
+</a>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "ClinVar",
+                    "href": "https://www.ncbi.nlm.nih.gov/clinvar/RCV000152869",
+                  },
+                  "ref": null,
+                  "rendered": "ClinVar",
+                  "type": "a",
+                },
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+        ],
+        "type": "tbody",
+      },
+    ],
+    "type": "table",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <thead>
+            <tr>
+                        <th>
+                                    GENE
+                        </th>
+                        <th>
+                                    NUCLEOTIDE CHANGE
+                        </th>
+                        <th>
+                                    PROTEIN CHANGE
+                        </th>
+                        <th>
+                                    ALIAS
+                        </th>
+                        <th>
+                                    REGION
+                        </th>
+                        <th>
+                                    REPORTED CLASSIFICATION
+                        </th>
+                        <th>
+                                    LAST EVALUATED
+                        </th>
+                        <th>
+                                    LAST UPDATED
+                        </th>
+                        <th>
+                                    MORE INFO
+                        </th>
+            </tr>
+</thead>,
+          <tbody>
+            <tr>
+                        <td>
+                                    BRCA1
+                        </td>
+                        <td>
+                                    NM_007294.3:c.389A&gt;T
+                        </td>
+                        <td>
+                                    p.Tyr130Phe
+                        </td>
+                        <td />
+                        <td>
+                                    NM_007294.3:Ex6
+                        </td>
+                        <td>
+                                    Uncertain significance
+                        </td>
+                        <td>
+                                    2014-03-03
+                        </td>
+                        <td>
+                                    2017-09-14
+                        </td>
+                        <td>
+                                    <a
+                                                href="https://www.ncbi.nlm.nih.gov/clinvar/RCV000152869"
+                                    >
+                                                ClinVar
+                                    </a>
+                        </td>
+            </tr>
+            <tr>
+                        <td>
+                                    BRCA1
+                        </td>
+                        <td>
+                                    NM_007294.3:c.389A&gt;T
+                        </td>
+                        <td>
+                                    p.Tyr130Phe
+                        </td>
+                        <td />
+                        <td>
+                                    NM_007294.3:Ex6
+                        </td>
+                        <td>
+                                    Uncertain significance
+                        </td>
+                        <td>
+                                    2014-03-03
+                        </td>
+                        <td>
+                                    2017-09-14
+                        </td>
+                        <td>
+                                    <a
+                                                href="https://www.ncbi.nlm.nih.gov/clinvar/RCV000152869"
+                                    >
+                                                ClinVar
+                                    </a>
+                        </td>
+            </tr>
+</tbody>,
+        ],
+        "id": "table",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <tr>
+              <th>
+                            GENE
+              </th>
+              <th>
+                            NUCLEOTIDE CHANGE
+              </th>
+              <th>
+                            PROTEIN CHANGE
+              </th>
+              <th>
+                            ALIAS
+              </th>
+              <th>
+                            REGION
+              </th>
+              <th>
+                            REPORTED CLASSIFICATION
+              </th>
+              <th>
+                            LAST EVALUATED
+              </th>
+              <th>
+                            LAST UPDATED
+              </th>
+              <th>
+                            MORE INFO
+              </th>
+</tr>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <th>
+                  GENE
+</th>,
+                <th>
+                  NUCLEOTIDE CHANGE
+</th>,
+                <th>
+                  PROTEIN CHANGE
+</th>,
+                <th>
+                  ALIAS
+</th>,
+                <th>
+                  REGION
+</th>,
+                <th>
+                  REPORTED CLASSIFICATION
+</th>,
+                <th>
+                  LAST EVALUATED
+</th>,
+                <th>
+                  LAST UPDATED
+</th>,
+                <th>
+                  MORE INFO
+</th>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "GENE",
+                },
+                "ref": null,
+                "rendered": "GENE",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "NUCLEOTIDE CHANGE",
+                },
+                "ref": null,
+                "rendered": "NUCLEOTIDE CHANGE",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "PROTEIN CHANGE",
+                },
+                "ref": null,
+                "rendered": "PROTEIN CHANGE",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "ALIAS",
+                },
+                "ref": null,
+                "rendered": "ALIAS",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "REGION",
+                },
+                "ref": null,
+                "rendered": "REGION",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "REPORTED CLASSIFICATION",
+                },
+                "ref": null,
+                "rendered": "REPORTED CLASSIFICATION",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "LAST EVALUATED",
+                },
+                "ref": null,
+                "rendered": "LAST EVALUATED",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "LAST UPDATED",
+                },
+                "ref": null,
+                "rendered": "LAST UPDATED",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "MORE INFO",
+                },
+                "ref": null,
+                "rendered": "MORE INFO",
+                "type": "th",
+              },
+            ],
+            "type": "tr",
+          },
+          "type": "thead",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <tr>
+                <td>
+                                BRCA1
+                </td>
+                <td>
+                                NM_007294.3:c.389A&gt;T
+                </td>
+                <td>
+                                p.Tyr130Phe
+                </td>
+                <td />
+                <td>
+                                NM_007294.3:Ex6
+                </td>
+                <td>
+                                Uncertain significance
+                </td>
+                <td>
+                                2014-03-03
+                </td>
+                <td>
+                                2017-09-14
+                </td>
+                <td>
+                                <a
+                                                href="https://www.ncbi.nlm.nih.gov/clinvar/RCV000152869"
+                                >
+                                                ClinVar
+                                </a>
+                </td>
+</tr>,
+              <tr>
+                <td>
+                                BRCA1
+                </td>
+                <td>
+                                NM_007294.3:c.389A&gt;T
+                </td>
+                <td>
+                                p.Tyr130Phe
+                </td>
+                <td />
+                <td>
+                                NM_007294.3:Ex6
+                </td>
+                <td>
+                                Uncertain significance
+                </td>
+                <td>
+                                2014-03-03
+                </td>
+                <td>
+                                2017-09-14
+                </td>
+                <td>
+                                <a
+                                                href="https://www.ncbi.nlm.nih.gov/clinvar/RCV000152869"
+                                >
+                                                ClinVar
+                                </a>
+                </td>
+</tr>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td>
+                    BRCA1
+</td>,
+                  <td>
+                    NM_007294.3:c.389A&gt;T
+</td>,
+                  <td>
+                    p.Tyr130Phe
+</td>,
+                  <td />,
+                  <td>
+                    NM_007294.3:Ex6
+</td>,
+                  <td>
+                    Uncertain significance
+</td>,
+                  <td>
+                    2014-03-03
+</td>,
+                  <td>
+                    2017-09-14
+</td>,
+                  <td>
+                    <a
+                                        href="https://www.ncbi.nlm.nih.gov/clinvar/RCV000152869"
+                    >
+                                        ClinVar
+                    </a>
+</td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "BRCA1",
+                  },
+                  "ref": null,
+                  "rendered": "BRCA1",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "NM_007294.3:c.389A>T",
+                  },
+                  "ref": null,
+                  "rendered": "NM_007294.3:c.389A>T",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "p.Tyr130Phe",
+                  },
+                  "ref": null,
+                  "rendered": "p.Tyr130Phe",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": null,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "NM_007294.3:Ex6",
+                  },
+                  "ref": null,
+                  "rendered": "NM_007294.3:Ex6",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Uncertain significance",
+                  },
+                  "ref": null,
+                  "rendered": "Uncertain significance",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "2014-03-03",
+                  },
+                  "ref": null,
+                  "rendered": "2014-03-03",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "2017-09-14",
+                  },
+                  "ref": null,
+                  "rendered": "2017-09-14",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      href="https://www.ncbi.nlm.nih.gov/clinvar/RCV000152869"
+>
+                      ClinVar
+</a>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "ClinVar",
+                      "href": "https://www.ncbi.nlm.nih.gov/clinvar/RCV000152869",
+                    },
+                    "ref": null,
+                    "rendered": "ClinVar",
+                    "type": "a",
+                  },
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td>
+                    BRCA1
+</td>,
+                  <td>
+                    NM_007294.3:c.389A&gt;T
+</td>,
+                  <td>
+                    p.Tyr130Phe
+</td>,
+                  <td />,
+                  <td>
+                    NM_007294.3:Ex6
+</td>,
+                  <td>
+                    Uncertain significance
+</td>,
+                  <td>
+                    2014-03-03
+</td>,
+                  <td>
+                    2017-09-14
+</td>,
+                  <td>
+                    <a
+                                        href="https://www.ncbi.nlm.nih.gov/clinvar/RCV000152869"
+                    >
+                                        ClinVar
+                    </a>
+</td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "BRCA1",
+                  },
+                  "ref": null,
+                  "rendered": "BRCA1",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "NM_007294.3:c.389A>T",
+                  },
+                  "ref": null,
+                  "rendered": "NM_007294.3:c.389A>T",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "p.Tyr130Phe",
+                  },
+                  "ref": null,
+                  "rendered": "p.Tyr130Phe",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": null,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "NM_007294.3:Ex6",
+                  },
+                  "ref": null,
+                  "rendered": "NM_007294.3:Ex6",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Uncertain significance",
+                  },
+                  "ref": null,
+                  "rendered": "Uncertain significance",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "2014-03-03",
+                  },
+                  "ref": null,
+                  "rendered": "2014-03-03",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "2017-09-14",
+                  },
+                  "ref": null,
+                  "rendered": "2017-09-14",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      href="https://www.ncbi.nlm.nih.gov/clinvar/RCV000152869"
+>
+                      ClinVar
+</a>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "ClinVar",
+                      "href": "https://www.ncbi.nlm.nih.gov/clinvar/RCV000152869",
+                    },
+                    "ref": null,
+                    "rendered": "ClinVar",
+                    "type": "a",
+                  },
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+          ],
+          "type": "tbody",
+        },
+      ],
+      "type": "table",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Table component should render one 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Table
+    variants={Array []}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <thead>
+          <tr>
+                    <th>
+                              GENE
+                    </th>
+                    <th>
+                              NUCLEOTIDE CHANGE
+                    </th>
+                    <th>
+                              PROTEIN CHANGE
+                    </th>
+                    <th>
+                              ALIAS
+                    </th>
+                    <th>
+                              REGION
+                    </th>
+                    <th>
+                              REPORTED CLASSIFICATION
+                    </th>
+                    <th>
+                              LAST EVALUATED
+                    </th>
+                    <th>
+                              LAST UPDATED
+                    </th>
+                    <th>
+                              MORE INFO
+                    </th>
+          </tr>
+</thead>,
+        <tbody>
+          <h1>
+                    Enter a valid gene name
+          </h1>
+</tbody>,
+      ],
+      "id": "table",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <tr>
+            <th>
+                        GENE
+            </th>
+            <th>
+                        NUCLEOTIDE CHANGE
+            </th>
+            <th>
+                        PROTEIN CHANGE
+            </th>
+            <th>
+                        ALIAS
+            </th>
+            <th>
+                        REGION
+            </th>
+            <th>
+                        REPORTED CLASSIFICATION
+            </th>
+            <th>
+                        LAST EVALUATED
+            </th>
+            <th>
+                        LAST UPDATED
+            </th>
+            <th>
+                        MORE INFO
+            </th>
+</tr>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <th>
+                GENE
+</th>,
+              <th>
+                NUCLEOTIDE CHANGE
+</th>,
+              <th>
+                PROTEIN CHANGE
+</th>,
+              <th>
+                ALIAS
+</th>,
+              <th>
+                REGION
+</th>,
+              <th>
+                REPORTED CLASSIFICATION
+</th>,
+              <th>
+                LAST EVALUATED
+</th>,
+              <th>
+                LAST UPDATED
+</th>,
+              <th>
+                MORE INFO
+</th>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "GENE",
+              },
+              "ref": null,
+              "rendered": "GENE",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "NUCLEOTIDE CHANGE",
+              },
+              "ref": null,
+              "rendered": "NUCLEOTIDE CHANGE",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "PROTEIN CHANGE",
+              },
+              "ref": null,
+              "rendered": "PROTEIN CHANGE",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "ALIAS",
+              },
+              "ref": null,
+              "rendered": "ALIAS",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "REGION",
+              },
+              "ref": null,
+              "rendered": "REGION",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "REPORTED CLASSIFICATION",
+              },
+              "ref": null,
+              "rendered": "REPORTED CLASSIFICATION",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "LAST EVALUATED",
+              },
+              "ref": null,
+              "rendered": "LAST EVALUATED",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "LAST UPDATED",
+              },
+              "ref": null,
+              "rendered": "LAST UPDATED",
+              "type": "th",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "MORE INFO",
+              },
+              "ref": null,
+              "rendered": "MORE INFO",
+              "type": "th",
+            },
+          ],
+          "type": "tr",
+        },
+        "type": "thead",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h1>
+            Enter a valid gene name
+</h1>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Enter a valid gene name",
+          },
+          "ref": null,
+          "rendered": "Enter a valid gene name",
+          "type": "h1",
+        },
+        "type": "tbody",
+      },
+    ],
+    "type": "table",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <thead>
+            <tr>
+                        <th>
+                                    GENE
+                        </th>
+                        <th>
+                                    NUCLEOTIDE CHANGE
+                        </th>
+                        <th>
+                                    PROTEIN CHANGE
+                        </th>
+                        <th>
+                                    ALIAS
+                        </th>
+                        <th>
+                                    REGION
+                        </th>
+                        <th>
+                                    REPORTED CLASSIFICATION
+                        </th>
+                        <th>
+                                    LAST EVALUATED
+                        </th>
+                        <th>
+                                    LAST UPDATED
+                        </th>
+                        <th>
+                                    MORE INFO
+                        </th>
+            </tr>
+</thead>,
+          <tbody>
+            <h1>
+                        Enter a valid gene name
+            </h1>
+</tbody>,
+        ],
+        "id": "table",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <tr>
+              <th>
+                            GENE
+              </th>
+              <th>
+                            NUCLEOTIDE CHANGE
+              </th>
+              <th>
+                            PROTEIN CHANGE
+              </th>
+              <th>
+                            ALIAS
+              </th>
+              <th>
+                            REGION
+              </th>
+              <th>
+                            REPORTED CLASSIFICATION
+              </th>
+              <th>
+                            LAST EVALUATED
+              </th>
+              <th>
+                            LAST UPDATED
+              </th>
+              <th>
+                            MORE INFO
+              </th>
+</tr>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <th>
+                  GENE
+</th>,
+                <th>
+                  NUCLEOTIDE CHANGE
+</th>,
+                <th>
+                  PROTEIN CHANGE
+</th>,
+                <th>
+                  ALIAS
+</th>,
+                <th>
+                  REGION
+</th>,
+                <th>
+                  REPORTED CLASSIFICATION
+</th>,
+                <th>
+                  LAST EVALUATED
+</th>,
+                <th>
+                  LAST UPDATED
+</th>,
+                <th>
+                  MORE INFO
+</th>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "GENE",
+                },
+                "ref": null,
+                "rendered": "GENE",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "NUCLEOTIDE CHANGE",
+                },
+                "ref": null,
+                "rendered": "NUCLEOTIDE CHANGE",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "PROTEIN CHANGE",
+                },
+                "ref": null,
+                "rendered": "PROTEIN CHANGE",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "ALIAS",
+                },
+                "ref": null,
+                "rendered": "ALIAS",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "REGION",
+                },
+                "ref": null,
+                "rendered": "REGION",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "REPORTED CLASSIFICATION",
+                },
+                "ref": null,
+                "rendered": "REPORTED CLASSIFICATION",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "LAST EVALUATED",
+                },
+                "ref": null,
+                "rendered": "LAST EVALUATED",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "LAST UPDATED",
+                },
+                "ref": null,
+                "rendered": "LAST UPDATED",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "MORE INFO",
+                },
+                "ref": null,
+                "rendered": "MORE INFO",
+                "type": "th",
+              },
+            ],
+            "type": "tr",
+          },
+          "type": "thead",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h1>
+              Enter a valid gene name
+</h1>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Enter a valid gene name",
+            },
+            "ref": null,
+            "rendered": "Enter a valid gene name",
+            "type": "h1",
+          },
+          "type": "tbody",
+        },
+      ],
+      "type": "table",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
