@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1523754771666" clover="3.2.0">
-  <project timestamp="1523754771666" name="All files">
+<coverage generated="1523755474768" clover="3.2.0">
+  <project timestamp="1523755474769" name="All files">
     <metrics statements="70" coveredstatements="18" conditionals="35" coveredconditionals="4" methods="41" coveredmethods="9" elements="146" coveredelements="31" complexity="0" loc="70" ncloc="70" packages="1" files="10" classes="10">
       <file name="App.js" path="/Users/darien/Desktop/first-django/Invitae/src/App.js">
         <metrics statements="8" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
